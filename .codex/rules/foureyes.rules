@@ -1,0 +1,17 @@
+# foureyes: agents never push or publish. The maintainer does both (AGENTS.md).
+
+prefix_rule(
+    pattern = ["git", "push"],
+    decision = "forbidden",
+    justification = "Agents never push. Commit on task/<task-id> and leave pushing to the maintainer.",
+    match = ["git push", "git push origin task/T0.1"],
+    not_match = ["git status"],
+)
+
+prefix_rule(
+    pattern = ["npm", "publish"],
+    decision = "forbidden",
+    justification = "Agents never publish. Publishing is the maintainer's job.",
+    match = ["npm publish", "npm publish --dry-run"],
+    not_match = ["npm test"],
+)
