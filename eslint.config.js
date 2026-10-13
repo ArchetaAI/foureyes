@@ -7,6 +7,10 @@ export default defineConfig(
   eslint.configs.recommended,
   tseslint.configs.strictTypeChecked,
   {
+    // Conflicts with Prettier: https://github.com/prettier/eslint-config-prettier#no-unexpected-multiline
+    rules: { "no-unexpected-multiline": "off" },
+  },
+  {
     languageOptions: {
       parserOptions: {
         projectService: true,
