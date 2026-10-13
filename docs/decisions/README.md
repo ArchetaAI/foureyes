@@ -15,8 +15,8 @@ Every architectural decision in foureyes is recorded here, one file per decision
 | [D0.1](D0.1-promise-and-non-goals.md) | One-sentence promise and three non-goals | Decided |
 | [D0.2](D0.2-project-name.md) | Project name | Decided |
 | [D0.3](D0.3-license.md) | License | Decided |
-| D0.4 | First language for benchmark tasks | Open |
-| D0.5 | Harness language and runtime | Open |
+| [D0.4](D0.4-benchmark-task-language.md) | First language for benchmark tasks | Decided |
+| [D0.5](D0.5-harness-language-and-runtime.md) | Harness language and runtime | Decided |
 | D1.1 | Task format: folder layout, metadata, visible vs hidden tests | Open |
 | D1.2 | The 15 benchmark task specs | Open |
 | D1.3 | Isolation for benchmark runs: containers, network, limits | Open |
