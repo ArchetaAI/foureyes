@@ -1,0 +1,10 @@
+node_modules/
+dist/
+coverage/
+.stryker-tmp/
+reports/
+*.log
+.env
+.env.*
+.claude/settings.local.json
+.DS_Store
