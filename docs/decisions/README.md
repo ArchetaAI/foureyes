@@ -17,7 +17,7 @@ Every architectural decision in foureyes is recorded here, one file per decision
 | [D0.3](D0.3-license.md) | License | Decided |
 | [D0.4](D0.4-benchmark-task-language.md) | First language for benchmark tasks | Decided |
 | [D0.5](D0.5-harness-language-and-runtime.md) | Harness language and runtime | Decided |
-| D1.1 | Task format: folder layout, metadata, visible vs hidden tests | Open |
+| [D1.1](D1.1-task-format.md) | Task format: folder layout, metadata, visible vs hidden tests | Decided |
 | D1.2 | The 15 benchmark task specs | Open |
 | D1.3 | Isolation for benchmark runs: containers, network, limits | Open |
 | [D1.4](D1.4-hidden-material-location.md) | Where hidden tests, held-out tasks and reference solutions live | Decided |
