@@ -20,7 +20,7 @@ Every architectural decision in foureyes is recorded here, one file per decision
 | D1.1 | Task format: folder layout, metadata, visible vs hidden tests | Open |
 | D1.2 | The 15 benchmark task specs | Open |
 | D1.3 | Isolation for benchmark runs: containers, network, limits | Open |
-| D1.4 | Where hidden tests, held-out tasks and reference solutions live | Open |
+| [D1.4](D1.4-hidden-material-location.md) | Where hidden tests, held-out tasks and reference solutions live | Decided |
 | D1.5 | Results schema, runs per task, and baseline settings | Open |
 | D1.6 | Mutation-testing tool and score threshold | Open |
 | D2.1 | Stage model and run-state format | Open |
